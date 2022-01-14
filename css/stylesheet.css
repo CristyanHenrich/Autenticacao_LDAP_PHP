@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+}
+
+.Content {
+    max-width: 300px;
+    max-height: 300px;
+    background-color: #c5c5c5;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .6);
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.campos {
+    border: none;
+    width: 200px;
+    height: 28px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.campos:hover {
+    border: 2px solid yellowgreen;
+}
+
+.buttons {
+    border: none;
+    width: 150px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #c5c5c5;
+    border: 2px solid white;
+}
+
+.buttons:hover {
+    background-color: yellowgreen;
+    color: white;
+    border: 2px solid white;
+    transition: background 0.5s;
+}
+
+.Concluido {
+    max-width: 500px;
+    max-height: 300px;
+    background-color: #ffaaaa;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: background 0.5s;
+    gap: 10px;
+}
+
+.Concluido p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: justify;
+    padding: 5px;
+    color: white;
+}
+
+.Concluido h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.Concluido h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.concluido input {
+    font-size: 23px;
+    background-color: #d3605f;
+    border: none;
+    color: white;
+    width: 90%;
+    height: 50px;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.concluido input:hover {
+    background-color: white;
+    color: black;
+}
